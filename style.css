@@ -1,0 +1,17 @@
+body {
+    background-color: #f9f9f9;
+}
+
+
+input {
+    width: calc(100% - 20px);
+    
+}
+
+
+/* Настройки для элемент с классом container при ширине экрана до 600px */
+@media (max-width: 600px) {
+    .container {
+        max-width: 300px;
+    }
+}
